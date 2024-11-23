@@ -130,7 +130,7 @@ install_panel() {
   echo "Installing Skyport Panel..."
   sudo apt install git
   cd
-  sudo git clone https://github.com/skyportlabs/panel /var/www/skyport/panel
+  sudo git clone https://github.com/RyanisyydsTT/skyport-tw-panel /var/www/skyport/panel
   check_error "Cloning Skyport Panel repository"
 
   cd /var/www/skyport/panel
@@ -171,7 +171,7 @@ install_daemon() {
   echo "Installing Skyport Daemon..."
   sudo apt install git
   cd
-  sudo git clone https://github.com/skyportlabs/skyportd /var/www/skyport/daemon
+  sudo git clone https://github.com/privt00/skyportd /var/www/skyport/daemon
   check_error "Cloning Skyport Daemon repository"
 
   curl -sSL https://get.docker.com/ | CHANNEL=stable bash
